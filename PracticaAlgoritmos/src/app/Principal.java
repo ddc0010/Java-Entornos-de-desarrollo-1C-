@@ -1,9 +1,18 @@
 package app;
 
+import util.Algoritmos;
+import java.util.Random;
+
 public class Principal {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		int [] num = new int [5];
+		Random random = new Random();
+		for(int i = 0; i < num.length;i++) {
+			num[i] = random.nextInt(10)+1;	}
+		
+		
 
 	}
 
