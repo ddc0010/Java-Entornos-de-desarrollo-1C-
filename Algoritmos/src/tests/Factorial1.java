@@ -12,8 +12,8 @@ public class Factorial1 {
 	@Test
 	void factorial() {
 		int factorialEsperada = 24;
-		int factorialObtenida = Factorial1.factorial(4);
-		assertEquals(sumaEsperada, sumaObtenida);
+		int factorialObtenida = Factorial.factorial(4);
+		assertEquals(factorialEsperada, factorialObtenida);
 		
 		
 	}

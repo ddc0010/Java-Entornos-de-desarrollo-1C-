@@ -9,8 +9,13 @@ public abstract class Algoritmos {
 	 */
 	
 	public static int sumatorio(int numero) {
+		int suma = 0;
 		
-		return 0;
+		for(int i=1;i<=numero;i++) {
+			suma += 1;
+		}
+		
+		return suma;
 		
 	}
 
